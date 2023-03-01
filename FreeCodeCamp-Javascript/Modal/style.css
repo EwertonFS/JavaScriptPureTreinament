@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.modal-overlay{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height: 100%;
+display:grid;
+background: rgba(79,166,233,0.5);
+place-items:center;
+transition: var (--transition);
+visibility: hidden;
+z-index:-10; 
+}
+
+/* Open closemodal */
+.open-modal{
+ visibility: visible;
+ Z-index:10;
+ 
+}
+
+.modal-btn:hover{
+background: trasparent;
+color: var(--clr--primary-5)
+}
+
+.imagem{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+/* Centralizando Banner*/
+.banner{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    
+}
+
+.modal-container{
+  display: grid;
+  place-items: center;
+  text-align: center;
+  display: grid;
+  justify-content:center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 0.2em solid black;
+  border-radius: 2em;
+  height:25vh;
+  width:40vw;
+  background: rgb(157,139,139);
+  font-size: 80%
+}
+
+.close-btn{
+  background: #b61a15;
+  background-image: linear-gradient(to bottom, #db4d34, #b92989);
+  border-radius: 1em;
+  border: none;
+  color: #070101;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0,8em;
+  font-weight: bold;
+  margin: 1em;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.hero{
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0.2em solid black;
+    border-radius: 2em;
+    height:25vh;
+    width:40vw;
+    background: rgb(212, 211, 207);
+    font-size: 80%
+}
+
+#btn{
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 1em;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0,5em;
+    font-weight: bold;
+    margin: 1em;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s;
+  }
+  
+  #btn:hover{
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .btn {
+      font-size: 0.8em;
+      padding: 0.8em 1.6em;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .btn {
+      font-size: 0.6em;
+      padding: 0.6em 1.2em;
+    }
+  }
+
+  
+  
+  

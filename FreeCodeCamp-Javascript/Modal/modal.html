@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Modal</title>
+    <!-- font awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloock&family=Poppins:ital,wght@1,500&family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <!--styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="banner">
+        <h1>Modal Exemple</h1>
+        <button class="btn modal-btn" id="btn">
+        open modal
+        </button>
+      </div>
+    </header>
+
+    <img class="imagem" src="./assets/backGroundImg.jpg" />
+
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <h3>Modal Content</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et fuga consectetur expedita labore animi voluptates, magnam accusamus odit maxime excepturi illo totam, reiciendis eos quaerat perferendis. Ab quibusdam perferendis tempora!</p>
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+          Fechar
+        </button>
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
