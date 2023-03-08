@@ -88,28 +88,6 @@ function loop() {
 loop();
 
 /* 
-const textDisplay = document.getElementById("text");
-const phrases = ["FrontEnd", "BackEnd", "FullStack"];
+https://www.youtube.com/watch?v=mULM6KcF_mo
+*/
 
-let i = 0;
-let j = 0;
-
-function loop() {
-  if (i >= phrases.length) {
-    return; // Condição de parada para sair do loop
-  }
-
-  console.log(phrases[i]);
-
-  if (j < phrases[i].length) {
-    console.log(phrases[i].charAt(j)); // Correção para obter o caractere de uma string
-    j++;
-  } else {
-    i++;
-    j = 0;
-  }
-
-  setTimeout(loop, 1000); // Chama a função novamente após um intervalo de tempo
-}
-
-loop(); // Chama a função pela primeira vez para iniciar o loop */
